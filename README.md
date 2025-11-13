@@ -10,7 +10,7 @@ Responsive UI for desktop and mobile.
 
 Tech Stack
 
-Frontend: (e.g., React, HTML, CSS, JavaScript) — specify your exact tech.
+Frontend: (e.g., React, tailwind, JavaScript) — specify your exact tech.
 Backend / API: (e.g., Node.js + Express) — specify.
 Database: (e.g., postgres/Firebase) — specify.
 Deployment: (e.g. Netlify) — specify if done. 
