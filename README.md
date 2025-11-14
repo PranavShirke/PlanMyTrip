@@ -1,19 +1,31 @@
-PlanMyTrip
+🌎 PlanMyTrip
 Developed an AI-powered travel planner that generates custom, day-by-day itineraries based on user preferences. The system integrates real-time weather data to suggest appropriate activities and features interactive mapping to simplify navigation and visualize the journey.
 
-✨ Features
-Browse and search popular travel destinations.
-Create and manage trip itineraries.
-Check weather and interactive map for exact locations 
-Download your AI powered travel plan as a pdf 
-Responsive UI for desktop and mobile.
+## 🧳 Features
 
-Tech Stack
+- 🔐 **Clerk Authentication** – Secure user login and signup
+- 📍 **Destination Input** – Choose your location and travel duration
+- 🎯 **Interest Selection** – Select from nature, culture, food, and more
+- 🧠 **AI Itinerary Generation** – Uses Gemini API to generate smart day-wise plans
+- 🌦️ **Weather Forecasting** – Forecast shown for your trip period
+- 🗺️ **Map Integration** – View itinerary locations as map pins with Leaflet.js
+- 💾 **Save & View Trips** – Store and retrieve past itineraries (MongoDB)
+- 🗓️ **Interactive Calendar** – Built-in calendar picker for start and end dates
+- 💅 **Stunning UI** – Built with Tailwind CSS and ShadCN UI components
 
-Frontend: (e.g., React, tailwind, JavaScript) — specify your exact tech.
-Backend / API: (e.g., Node.js + Express) — specify.
-Database: (e.g., postgres/Firebase) — specify.
-Deployment: (e.g. Netlify) — specify if done. 
+## 🧰 Tech Stack
+
+| Category       | Tools / Frameworks                       |
+|----------------|------------------------------------------|
+| Frontend       | React.js, Tailwind CSS, ShadCN UI        |
+| Backend        | Node.js, Express.js                      |
+| Authentication | Clerk.dev                                |
+| AI Engine      | Google Gemini API                        |
+| Map            | Leaflet.js                               |
+| Weather API    | Open-Meteo (or Tomorrow.io alternative)  |
+| Database       | MongoDB + Mongoose                       |
+| Date Picker    | React Calendar                           |
+
 
 PlanMyTrip/
 │
